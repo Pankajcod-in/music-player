@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    text-align: center;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+input[type="range"] {
+    width: 200px;
+}

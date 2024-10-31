@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player by pankaj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <h1>Music Player</h1>
+        <audio id="audio" src="y2mate.com - Lagan Tumse Laga Baithe Jo Hoga Dekha Jayega  Shyam Teri Lagan  Jaya Kishori Ji Bhajan  SanskarTV.mp3" preload="metadata"></audio>
+        <div class="track-info">
+            <p id="track-title">lagan tumse laga Baithe </p>
+        </div>
+
+        <div class="controls">
+            <button id="prev">Previous</button>
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="next">Next</button>
+        </div>
+        <input type="range" id="progress" value="0" step="1">
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+        <div class="playlist">
+            <h2>Playlist</h2>
+            <ul id="playlist">
+                <li data-src="y2mate.com - Lagan Tumse Laga Baithe Jo Hoga Dekha Jayega  Shyam Teri Lagan  Jaya Kishori Ji Bhajan  SanskarTV.mp3"> track 1: jaya kishori ka gana</li>
+                <li data-src="y2mate.com - Tum Mere Official Video  Darshan Raval  Gurpreet S  Gautam S  Lijo George.mp3"> track 2: darshan raval ka gaana</li>
+                <li data-src="y2mate.com - Har Kadam par koi Katil hai.mp3">track 3: mahadevan jii ka gaana</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
